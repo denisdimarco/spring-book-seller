@@ -18,6 +18,9 @@ public class PurchaseHistory {
     private Long userId;
 
     @Column(name = "book_id", nullable = false)
+    private Long bookId;
+
+    @Column(name = "price", nullable = false)
     private Double price;
 
     @Column(name = "purchase_time", nullable = false)
