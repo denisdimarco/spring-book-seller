@@ -1,4 +1,4 @@
-package com.ddm.springbookseller.service.jwt;
+package com.ddm.springbookseller.security.jwt;
 
 import com.ddm.springbookseller.security.UserPrincipal;
 import org.springframework.security.core.Authentication;
