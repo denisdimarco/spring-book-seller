@@ -28,8 +28,9 @@ public class User {
     @Enumerated(EnumType.STRING) //Better readability but worse performance than ORDINAL
     @Column(name = "role", nullable = false)
     private Role role;
-
-
+    
+    @Transient
+    private String token;
 
 
 }
