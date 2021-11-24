@@ -1,5 +1,6 @@
 package com.ddm.springbookseller.security;
 
+import com.ddm.springbookseller.model.Role;
 import com.ddm.springbookseller.security.jwt.JwtAuthorizationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -48,10 +49,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         http.authorizeRequests()
                 .antMatchers("/api/authentication/**").permitAll()
+                .antMatchers("/api/internal/**").hasRole(Role.SYSTEM_MANAGER.name())
                 .anyRequest().authenticated();
 
-
-        http.addFilterBefore(jwtAuthorizationFilter(), UsernamePasswordAuthenticationFilter.class);
+        //jwt filter
+        //interal > jwt > authentication
+        http.addFilterBefore(jwtAuthorizationFilter(), UsernamePasswordAuthenticationFilter.class)
+                .addFilterBefore(internalApiAuthenticationFilter(), JwtAuthorizationFilter.class);
     }
 
     @Bean
