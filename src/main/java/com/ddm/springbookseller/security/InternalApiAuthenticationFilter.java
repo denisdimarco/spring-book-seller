@@ -23,7 +23,7 @@ public class InternalApiAuthenticationFilter extends OncePerRequestFilter {
 
     @Override
     protected boolean shouldNotFilter(HttpServletRequest request) throws ServletException {
-        return request.getRequestURI().startsWith("/api/internal");
+        return !request.getRequestURI().startsWith("/api/internal");
     }
 
     @Override

@@ -8,9 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBookSellerApplication {
 
 
-
-	public static void main(String[] args) {
-		SpringApplication.run(SpringBookSellerApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SpringBookSellerApplication.class, args);
+    }
 
 }

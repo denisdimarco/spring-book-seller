@@ -33,6 +33,7 @@ public class JwtProviderImpl implements JwtProvider {
                 .map(GrantedAuthority::getAuthority)
                 .collect(Collectors.joining(","));
 
+
         return Jwts.builder()
                 .setSubject(auth.getUsername())
                 .claim("roles", authorities)
