@@ -3,8 +3,6 @@ f
 6src/main/java/com/ddm/springbookseller/model/Book.java,b/9/b9d2798d6145a9e6153ed38e4df4e79e496b97e6
 f
 6src/main/java/com/ddm/springbookseller/model/Role.java,3/3/334f6396ac048c23907055bdc0ab01e591449431
-f
-6src/main/java/com/ddm/springbookseller/model/User.java,9/a/9aca4a9d85c311f25e4e4830903456448f6b2267
 ~
 Nsrc/main/java/com/ddm/springbookseller/repository/projection/PurchaseItem.java,4/f/4f70ba7290cfd27c3b97451962de914a3c236856
 u
@@ -27,13 +25,7 @@ Psrc/main/java/com/ddm/springbookseller/repository/PurchaseHistoryRepository.jav
 Nsrc/main/java/com/ddm/springbookseller/service/PurchaseHistoryServiceImpl.java,d/1/d1697f88f3b459b08dd90dcd2c097189ff2b2e02
 z
 Jsrc/main/java/com/ddm/springbookseller/service/PurchaseHistoryService.java,1/9/199c0ea6308e159e76a3f0b3c8b6f7fccd579abe
-r
-Bsrc/main/java/com/ddm/springbookseller/security/UserPrincipal.java,5/7/57b2ffeeddcdce9115ba6c650493b3374f414366
-}
-Msrc/main/java/com/ddm/springbookseller/security/CustomUserDetailsService.java,5/3/53118b394ac3cd7b61d607e2707598c1418dd311
 w
 Gsrc/main/java/com/ddm/springbookseller/SpringBookSellerApplication.java,2/e/2efb30bc3452ded33c5244a954aa1bec89461c4a
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
-n
->src/main/java/com/ddm/springbookseller/util/SecurityUtils.java,7/e/7e47103c8ada8b7f7ff79014455efedd69606f7b
