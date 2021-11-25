@@ -25,14 +25,13 @@ public class JwtProviderImpl implements JwtProvider {
     private String JWT_SECRET;
 
     @Value("${app.jwt.expiration-in-ms}")
-    private String JWT_EXPIRATION_IN_MS;
+    private Long JWT_EXPIRATION_IN_MS;
 
     @Override
     public String generateToken(UserPrincipal auth) {
         String authorities = auth.getAuthorities().stream()
                 .map(GrantedAuthority::getAuthority)
                 .collect(Collectors.joining(","));
-
 
         return Jwts.builder()
                 .setSubject(auth.getUsername())
@@ -46,9 +45,11 @@ public class JwtProviderImpl implements JwtProvider {
     @Override
     public Authentication getAuthentication(HttpServletRequest request) {
         Claims claims = extractClaims(request);
+
         if (claims == null) {
             return null;
         }
+
         String username = claims.getSubject();
         Long userId = claims.get("userId", Long.class);
 
@@ -66,7 +67,6 @@ public class JwtProviderImpl implements JwtProvider {
             return null;
         }
         return new UsernamePasswordAuthenticationToken(userDetails, null, authorities);
-
     }
 
 
