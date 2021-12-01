@@ -1,0 +1,8 @@
+{
+  "name": "ddm-book-seller",
+  "buildpacks": [
+    {
+      "url": "heroku/gradle"
+    }
+  ]
+}
