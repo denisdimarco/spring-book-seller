@@ -6,7 +6,7 @@ import org.springframework.context.annotation.PropertySource;
 
 
 @SpringBootApplication
-@PropertySource("classpath:application-${spring.profiles.active:default}.properties")
+@PropertySource("classpath:application-default.properties")
 public class SpringBookSellerApplication {
 
 
