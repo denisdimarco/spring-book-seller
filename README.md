@@ -1,5 +1,7 @@
 # Spring Boot Book Seller
 
+Full-Stack Book Sales Web Application with Spring, API Rest, Angular 12, Spring-Security, PostgreSQL, Hibernate, Heroku Cloud.
+
 ### Endpoints
 
 #### Sign-Up
