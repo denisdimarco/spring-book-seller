@@ -10,17 +10,20 @@ Usage:
  
 2. Log-in with your username and password
 
+Now you can "buy" books and add to your account. 
+
+![image](https://user-images.githubusercontent.com/87948501/149994747-caf2554a-10ef-4e1c-af53-5d4ec3bb7b14.png)
+
+![image](https://user-images.githubusercontent.com/87948501/149994801-6012f0bf-9446-418a-8ccf-eecd17b65899.png)
+
+
 3. You also can login with `username: admin` and `password: admin` to acces the administrator page. Here you can create, edit and delete books:
- ![image](https://user-images.githubusercontent.com/87948501/149994215-2fe9b4a2-5cac-469e-9e3f-b82569d03dc9.png)
 
 ![image](https://user-images.githubusercontent.com/87948501/149994607-0d2caa99-5cd5-4d73-ba6a-f540143d6b58.png)
 
 
 ![image](https://user-images.githubusercontent.com/87948501/149994658-bfa68da8-c11b-488c-965f-d130f6dab389.png)
 
-![image](https://user-images.githubusercontent.com/87948501/149994747-caf2554a-10ef-4e1c-af53-5d4ec3bb7b14.png)
-
-![image](https://user-images.githubusercontent.com/87948501/149994801-6012f0bf-9446-418a-8ccf-eecd17b65899.png)
 
 ### Endpoints
 
