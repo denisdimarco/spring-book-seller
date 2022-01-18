@@ -2,6 +2,10 @@
 
 Full-Stack Book Sales Web Application with Spring, API Rest, Angular 12, Spring-Security, PostgreSQL, Hibernate, Heroku Cloud.
 
+
+You can visit and test the live website here: (https://ddm-book-seller-ui.herokuapp.com/register)
+
+
 ### Endpoints
 
 #### Sign-Up
