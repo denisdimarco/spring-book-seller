@@ -7,8 +7,8 @@ You can visit and test the live website here: https://ddm-book-seller-ui.herokua
 
 Usage: 
 1. Register a new user
- ![image](https://user-images.githubusercontent.com/87948501/149993270-3b5f4261-d44e-4976-937a-1379761d9ae1.png)
- <img src="https://user-images.githubusercontent.com/87948501/149993270-3b5f4261-d44e-4976-937a-1379761d9ae1.png" width="100" height="100">
+ 
+ <img src="https://user-images.githubusercontent.com/87948501/149993270-3b5f4261-d44e-4976-937a-1379761d9ae1.png" width="50%">
  
 2. Log-in with your username and password
 ![image](https://user-images.githubusercontent.com/87948501/149993367-ddb0e9ee-2769-4615-b433-27ffe94d7923.png)
