@@ -8,12 +8,7 @@ You can visit and test the live website here: https://ddm-book-seller-ui.herokua
 Usage: 
 1. Register a new user
  
- <img src="https://user-images.githubusercontent.com/87948501/149993270-3b5f4261-d44e-4976-937a-1379761d9ae1.png" width="50%">
- 
 2. Log-in with your username and password
-![image](https://user-images.githubusercontent.com/87948501/149993367-ddb0e9ee-2769-4615-b433-27ffe94d7923.png)
- 
-
 
 3. You also can login with `username: admin` and `password: admin` to acces the administrator page. Here you can create, edit and delete books:
  ![image](https://user-images.githubusercontent.com/87948501/149994215-2fe9b4a2-5cac-469e-9e3f-b82569d03dc9.png)
